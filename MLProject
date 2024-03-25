@@ -7,7 +7,7 @@ entry_points:
             steps: 
                 description: Comma-seperated list of steps to be followed
                 type: str
-                default: ["download"] #, "basic_cleaning", "data_check", "data_split", "train_random_forest", "test_regression_model"]
+                default: all
 
             hydra_options:
                 description: other configuration parameters to split
