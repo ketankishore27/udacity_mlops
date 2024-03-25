@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/A118390615/Desktop/udacity/udacity_mlops/mlruns/0/a49225af80594dd9b4a84fe4e0f29e5b/artifacts
+end_time: 1711389127795
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a49225af80594dd9b4a84fe4e0f29e5b
+run_name: awesome-rook-824
+run_uuid: a49225af80594dd9b4a84fe4e0f29e5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711389124076
+status: 3
+tags: []
+user_id: A118390615
