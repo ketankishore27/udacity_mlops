@@ -1,16 +1,16 @@
 main:
-	component_repository: "https://github.com/ketankishore27/udacity_mlops"
-	project_name: NYC_AirBNB
-	experiment_name: development
-	steps: ["download", "basic_cleaning", "data_check", "data_split", 
-			"train_random_forest", "test_regression_model"]
+    component_repository: "https://github.com/ketankishore27/udacity_mlops"
+    project_name: NYC_AirBNB
+    experiment_name: development
+    steps: ["download", "basic_cleaning", "data_check", "data_split", 
+            "train_random_forest", "test_regression_model"]
 
 etl_configs:
-	data_file: "sample.csv"
-	min_price: 10
-	max_price: 250
+    data_file: "sample.csv"
+    min_price: 10
+    max_price: 250
 
 data_checks:
-	kl_threshold: 0.2
+    kl_threshold: 0.2
 
 
