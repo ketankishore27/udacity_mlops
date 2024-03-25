@@ -19,7 +19,7 @@ def go(config: DictConfig):
     with tempfile.TemporaryDirectory() as tmp_dir:
 
         pipeline_steps = config['main']['steps']
-
+        print("Say Hi")
         if "download" in pipeline_steps:
             print("Say Hi")
             _ = mlflow.run(
