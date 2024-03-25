@@ -1,0 +1,26 @@
+name: download
+conda_env: conda.yml
+
+entry_points:
+	main:
+		parameters:
+
+			sample:
+				description: Name of the sample to be downloaded
+				type: string
+
+			artifact_name:
+				description: Name of the output artifact
+				type: string
+
+			artifact_type:
+				description: Type of the output artifact which will used by W&B
+				type: string
+
+			artifact_description:
+				description: This downloaded file is NYC_AirBNB file
+				type: string
+
+		command: "python run.py {sample} {artifact_name} {artifact_type} {artifact_description}"
+
+  
