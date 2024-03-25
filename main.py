@@ -6,15 +6,6 @@ import hydra
 from omegaconf import DictConfig
 
 
-steps_local = [
-    "download",
-    "basic_cleaning",
-    "data_check",
-    "data_split",
-    "train_random_forest",
-    "test_regression_model"
-]
-
 @hydra.main(config_name='config')
 def go(config: DictConfig):
     
@@ -28,7 +19,14 @@ def go(config: DictConfig):
 
         if "download" in pipeline_steps:
             _ = mlflow.run(
-                f{config["main"]["component_repository"]}
+                "{}/get_data".format(config["main"]["component_repository"]), 
+                "main",
+                parameters={
+                    "sample": config["etl"]["sample"],
+                    "artifact_name": "sample.csv",
+                    "artifact_type": "raw_data",
+                    "artifact_description": "Raw file as downloaded"
+                }
             )
 
 
