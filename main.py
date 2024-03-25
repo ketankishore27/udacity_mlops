@@ -1,5 +1,8 @@
 import os
 import tempfile
+import numpy as np
+np.object = np.object_
+
 import mlflow
 import wandb
 import hydra

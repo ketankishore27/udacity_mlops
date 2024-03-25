@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/A118390615/Desktop/udacity/udacity_mlops/mlruns/0/376f2cdd9d1a40aa8692411d20466deb/artifacts
+end_time: 1711388499909
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 376f2cdd9d1a40aa8692411d20466deb
+run_name: traveling-conch-270
+run_uuid: 376f2cdd9d1a40aa8692411d20466deb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711388496795
+status: 4
+tags: []
+user_id: A118390615
