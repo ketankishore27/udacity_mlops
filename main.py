@@ -21,6 +21,7 @@ def go(config: DictConfig):
         pipeline_steps = config['main']['steps']
 
         if "download" in pipeline_steps:
+            print("Say Hi")
             _ = mlflow.run(
                 "{}/get_data".format(config["main"]["component_repository"]), 
                 "main",
