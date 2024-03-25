@@ -2,18 +2,16 @@ name: nyc_airbnb
 conda_env: conda.yml
 
 entry_points:
-	main:
-		parameters:
-			steps: 
-				description: Comma-seperated list of steps to be followed
-				type: str
-				default: ["download"] #, "basic_cleaning", "data_check", "data_split", "train_random_forest", "test_regression_model"]
+    main:
+        parameters:
+            steps: 
+                description: Comma-seperated list of steps to be followed
+                type: str
+                default: ["download"] #, "basic_cleaning", "data_check", "data_split", "train_random_forest", "test_regression_model"]
 
-			hydra_options:
-				description: other configuration parameters to split
-				type: str
-				default: ''
-				
-		command: "python main.py main.steps=\\'{steps}\\' $(echo {hydra_options})"
-		
-  
+            hydra_options:
+                description: other configuration parameters to split
+                type: str
+                default: ''
+                
+        command: "python main.py main.steps=\\'{steps}\\' $(echo {hydra_options})"
