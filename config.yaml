@@ -1,5 +1,5 @@
 main:
-    component_repository: "https://github.com/ketankishore27/udacity_mlops"
+    component_repository: "https://github.com/ketankishore27/udacity_mlops.git#components"
     project_name: NYC_AirBNB
     experiment_name: development
     steps: ["download", "basic_cleaning", "data_check", "data_split", 
