@@ -8,6 +8,13 @@ import wandb
 import hydra
 from omegaconf import DictConfig
 
+default_steps = [
+    "download",
+    "basic_cleaning",
+    "data_check",
+    "data_split",
+    "train_random_forest",
+]
 
 @hydra.main(config_name='config')
 def go(config: DictConfig):
@@ -18,9 +25,10 @@ def go(config: DictConfig):
 
     with tempfile.TemporaryDirectory() as tmp_dir:
 
-        pipeline_steps = config['main']['steps']
+        steps_provided = config["main"]["steps"]
+        pipeline_steps = [default_steps if steps_provided == 'all' else steps_provided.split(",")]
         root_path = hydra.utils.get_original_cwd()
-        print(root_path)
+        
 
         print("Say Hi", pipeline_steps)
         if "download" in pipeline_steps:

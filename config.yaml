@@ -2,8 +2,8 @@ main:
     component_repository: "https://github.com/ketankishore27/udacity_mlops.git#components"
     project_name: NYC_AirBNB
     experiment_name: development
-    steps: "download","basic_cleaning","data_check","data_split","train_random_forest","test_regression_model"
-    
+    steps: all
+
 etl_configs:
     data_file: "sample.csv"
     min_price: 10
