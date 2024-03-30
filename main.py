@@ -19,6 +19,8 @@ def go(config: DictConfig):
     with tempfile.TemporaryDirectory() as tmp_dir:
 
         pipeline_steps = config['main']['steps']
+        root_path = hydra.utils.get_original_cwd()
+        
         print("Say Hi", pipeline_steps)
         if "download" in pipeline_steps:
             print("Say Hi")

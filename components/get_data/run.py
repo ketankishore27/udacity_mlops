@@ -24,6 +24,7 @@ def go(args):
 
 if __name__ == "__main__":
 
+    print("Arg parsing commencing")
     parser = argparse.ArgumentParser(description="Download URL to local destination")
     parser.add_argument("sample", type-str, help="Name of the sample tobe downloaded")
     parser.add_argument("artifact_name", type-str, help="Name of the output artifact")
@@ -31,6 +32,8 @@ if __name__ == "__main__":
     parser.add_argument("artifact_description", type-str, help="Brief description of the artifact")
 
     args = parser.parse_args()
+    print("Args are parsed")
+    print(args)
     go(args)
     
 
