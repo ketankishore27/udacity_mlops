@@ -5,7 +5,7 @@ main:
     steps: all
 
 etl_configs:
-    data_file: "sample.csv"
+    data_file: "sample1.csv"
     min_price: 10
     max_price: 250
 
