@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/A118390615/Desktop/udacity/udacity_mlops/mlruns/0/181b84a21dcf4e8d9beaed370bc2cd3d/artifacts
+end_time: 1711819567593
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 181b84a21dcf4e8d9beaed370bc2cd3d
+run_name: debonair-smelt-592
+run_uuid: 181b84a21dcf4e8d9beaed370bc2cd3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711819563902
+status: 4
+tags: []
+user_id: A118390615

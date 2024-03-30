@@ -35,7 +35,7 @@ def go(config: DictConfig):
         if "download" in pipeline_steps:
             print("Say Hi")
             _ = mlflow.run(
-                f"{config['main']['components_repository']}/get_data",
+                f"{config['main']['component_repository']}/get_data",
                 "main",
                 parameters={
                     "sample": config["etl_configs"]["data_file"],
