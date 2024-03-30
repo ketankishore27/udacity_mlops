@@ -20,12 +20,12 @@ def go(config: DictConfig):
 
         pipeline_steps = config['main']['steps']
         root_path = hydra.utils.get_original_cwd()
-        
+
         print("Say Hi", pipeline_steps)
         if "download" in pipeline_steps:
             print("Say Hi")
             _ = mlflow.run(
-                "{}/get_data".format(config["main"]["component_repository"]), 
+                f"{config['main']['components_repository']}/get_data",
                 "main",
                 parameters={
                     "sample": config["etl"]["sample"],
