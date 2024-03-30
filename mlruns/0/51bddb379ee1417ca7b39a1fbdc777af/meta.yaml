@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/A118390615/Desktop/udacity/udacity_mlops/mlruns/0/51bddb379ee1417ca7b39a1fbdc777af/artifacts
+end_time: 1711819087250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51bddb379ee1417ca7b39a1fbdc777af
+run_name: hilarious-deer-997
+run_uuid: 51bddb379ee1417ca7b39a1fbdc777af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711819082865
+status: 3
+tags: []
+user_id: A118390615

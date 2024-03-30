@@ -26,7 +26,7 @@ def go(config: DictConfig):
     with tempfile.TemporaryDirectory() as tmp_dir:
 
         steps_provided = config["main"]["steps"]
-        pipeline_steps = [default_steps if steps_provided == 'all' else steps_provided.split(",")]
+        pipeline_steps = default_steps if steps_provided == 'all' else steps_provided.split(",")
         root_path = hydra.utils.get_original_cwd()
         
 
