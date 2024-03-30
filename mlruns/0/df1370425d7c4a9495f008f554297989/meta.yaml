@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/A118390615/Desktop/udacity/udacity_mlops/mlruns/0/df1370425d7c4a9495f008f554297989/artifacts
+end_time: 1711819536089
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df1370425d7c4a9495f008f554297989
+run_name: agreeable-sloth-375
+run_uuid: df1370425d7c4a9495f008f554297989
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711819521695
+status: 4
+tags: []
+user_id: A118390615
