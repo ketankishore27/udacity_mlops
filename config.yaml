@@ -3,7 +3,7 @@ main:
     project_name: NYC_AirBNB
     experiment_name: development
     steps: "download","basic_cleaning","data_check","data_split","train_random_forest","test_regression_model"
-
+    
 etl_configs:
     data_file: "sample.csv"
     min_price: 10
