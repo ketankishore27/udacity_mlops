@@ -20,6 +20,7 @@ def go(config: DictConfig):
 
         pipeline_steps = config['main']['steps']
         root_path = hydra.utils.get_original_cwd()
+        print(root_path)
 
         print("Say Hi", pipeline_steps)
         if "download" in pipeline_steps:
