@@ -15,7 +15,7 @@ default_steps = [
     "data_split",
     "train_random_forest",
 ]
-
+os.environ['HYDRA_FULL_ERROR'] = 1 ## to delete
 @hydra.main(config_name='config')
 def go(config: DictConfig):
     
