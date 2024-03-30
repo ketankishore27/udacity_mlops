@@ -29,7 +29,7 @@ def go(config: DictConfig):
                 f"{config['main']['components_repository']}/get_data",
                 "main",
                 parameters={
-                    "sample": config["etl"]["sample"],
+                    "sample": config["etl_configs"]["data_file"],
                     "artifact_name": "sample.csv",
                     "artifact_type": "raw_data",
                     "artifact_description": "Raw file as downloaded"
