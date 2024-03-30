@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/A118390615/Desktop/udacity/udacity_mlops/mlruns/0/e12735a327cd4b45a0f12eb3292dbaf0/artifacts
+end_time: 1711819383507
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e12735a327cd4b45a0f12eb3292dbaf0
+run_name: upbeat-swan-231
+run_uuid: e12735a327cd4b45a0f12eb3292dbaf0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711819380230
+status: 4
+tags: []
+user_id: A118390615
