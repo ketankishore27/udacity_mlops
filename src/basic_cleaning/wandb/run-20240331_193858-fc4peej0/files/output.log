@@ -1,0 +1,40 @@
+ name                               object
+host_id                             int64
+host_name                          object
+neighbourhood_group                object
+neighbourhood                      object
+latitude                          float64
+longitude                         float64
+room_type                          object
+price                               int64
+minimum_nights                      int64
+number_of_reviews                   int64
+last_review                        object
+reviews_per_month                 float64
+calculated_host_listings_count      int64
+availability_365                    int64
+dtype: object
+Traceback (most recent call last):
+  File "/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py", line 105, in <module>
+    go(args)
+  File "/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py", line 26, in go
+    idx = dataframe['price'].between(args.min_price, args.max_price)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/series.py", line 5629, in between
+    lmask = self >= left
+            ^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/arraylike.py", line 60, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/series.py", line 6110, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/ops/array_ops.py", line 341, in comparison_op
+    return invalid_comparison(lvalues, rvalues, op)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/ops/invalid.py", line 40, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=int64 and str

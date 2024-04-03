@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py", line 105, in <module>
+    go(args)
+  File "/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py", line 25, in go
+    print("\n\n\n\n\n", dataframe.dtype, "\n\n\n\n\n")
+                        ^^^^^^^^^^^^^^^
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/lib/python3.12/site-packages/pandas/core/generic.py", line 6296, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'dtype'. Did you mean: 'dtypes'?

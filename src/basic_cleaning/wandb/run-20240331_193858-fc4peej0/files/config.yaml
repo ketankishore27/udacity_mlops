@@ -1,0 +1,42 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.2
+    cli_version: 0.16.0
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    start_time: 1711894138.79734
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      3:
+      - 23
+      4: 3.12.2
+      5: 0.16.0
+      8:
+      - 2
+      - 4
+      - 5
+      13: darwin-arm64
+input_artifact:
+  desc: null
+  value: sample1.csv:latest
+output_artifact:
+  desc: null
+  value: clean_sample.csv
+output_type:
+  desc: null
+  value: clean_sample
+output_description:
+  desc: null
+  value: Data with outliers and null values removed
+min_price:
+  desc: null
+  value: '10'
+max_price:
+  desc: null
+  value: '350'

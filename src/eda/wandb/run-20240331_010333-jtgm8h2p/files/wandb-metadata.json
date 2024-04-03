@@ -1,0 +1,48 @@
+{
+    "os": "macOS-14.4-arm64-arm-64bit",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-03-30T19:33:34.160758",
+    "startedAt": "2024-03-30T19:33:33.063000",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Untitled.ipynb",
+    "codePathLocal": "Untitled.ipynb",
+    "root": "/Users/A118390615/Desktop/udacity/udacity_mlops",
+    "git": {
+        "remote": "https://github.com/ketankishore27/udacity_mlops.git",
+        "commit": "17bfa26ae9776fa0db9157db6582c7604a5de4f9"
+    },
+    "email": "ketan.kishore@t-systems.com",
+    "host": "T000ea983e",
+    "username": "A118390615",
+    "executable": "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 435.0820960998535
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

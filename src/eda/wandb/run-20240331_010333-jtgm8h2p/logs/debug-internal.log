@@ -1,0 +1,236 @@
+2024-03-31 01:03:33,088 INFO    StreamThr :9209 [internal.py:wandb_internal():86] W&B internal server running at pid: 9209, started at: 2024-03-31 01:03:33.087257
+2024-03-31 01:03:33,089 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: status
+2024-03-31 01:03:33,100 INFO    WriterThread:9209 [datastore.py:open_for_write():85] open: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/run-jtgm8h2p.wandb
+2024-03-31 01:03:33,100 DEBUG   SenderThread:9209 [sender.py:send():380] send: header
+2024-03-31 01:03:33,140 DEBUG   SenderThread:9209 [sender.py:send():380] send: run
+2024-03-31 01:03:33,853 INFO    SenderThread:9209 [dir_watcher.py:__init__():211] watching files in: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files
+2024-03-31 01:03:33,854 INFO    SenderThread:9209 [sender.py:_start_run_threads():1124] run started: jtgm8h2p with start time 1711827213.097271
+2024-03-31 01:03:33,894 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: check_version
+2024-03-31 01:03:33,894 DEBUG   SenderThread:9209 [sender.py:send_request():407] send_request: check_version
+2024-03-31 01:03:34,150 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: run_start
+2024-03-31 01:03:34,158 DEBUG   HandlerThread:9209 [system_info.py:__init__():32] System info init
+2024-03-31 01:03:34,159 DEBUG   HandlerThread:9209 [system_info.py:__init__():47] System info init done
+2024-03-31 01:03:34,159 INFO    HandlerThread:9209 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 01:03:34,159 INFO    SystemMonitor:9209 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 01:03:34,159 INFO    HandlerThread:9209 [system_monitor.py:probe():214] Collecting system info
+2024-03-31 01:03:34,160 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 01:03:34,160 DEBUG   HandlerThread:9209 [system_info.py:probe():196] Probing system
+2024-03-31 01:03:34,160 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 01:03:34,161 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 01:03:34,161 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 01:03:34,164 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started network monitoring
+2024-03-31 01:03:34,171 DEBUG   HandlerThread:9209 [system_info.py:_probe_git():181] Probing git
+2024-03-31 01:03:34,226 DEBUG   HandlerThread:9209 [system_info.py:_probe_git():189] Probing git done
+2024-03-31 01:03:34,227 DEBUG   HandlerThread:9209 [system_info.py:probe():244] Probing system done
+2024-03-31 01:03:34,227 DEBUG   HandlerThread:9209 [system_monitor.py:probe():223] {'os': 'macOS-14.4-arm64-arm-64bit', 'python': '3.10.14', 'heartbeatAt': '2024-03-30T19:33:34.160758', 'startedAt': '2024-03-30T19:33:33.063000', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Untitled.ipynb', 'codePathLocal': 'Untitled.ipynb', 'root': '/Users/A118390615/Desktop/udacity/udacity_mlops', 'git': {'remote': 'https://github.com/ketankishore27/udacity_mlops.git', 'commit': '17bfa26ae9776fa0db9157db6582c7604a5de4f9'}, 'email': 'ketan.kishore@t-systems.com', 'host': 'T000ea983e', 'username': 'A118390615', 'executable': '/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 460.4317207336426, 'used': 435.0820960998535}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-03-31 01:03:34,227 INFO    HandlerThread:9209 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-31 01:03:34,227 INFO    HandlerThread:9209 [system_monitor.py:probe():227] Publishing system info
+2024-03-31 01:03:34,227 DEBUG   HandlerThread:9209 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-03-31 01:03:34,228 DEBUG   HandlerThread:9209 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-31 01:03:34,228 DEBUG   HandlerThread:9209 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-03-31 01:03:34,855 INFO    Thread-12 :9209 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/conda-environment.yaml
+2024-03-31 01:03:34,856 INFO    Thread-12 :9209 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/requirements.txt
+2024-03-31 01:03:36,943 DEBUG   HandlerThread:9209 [system_info.py:_save_conda():87] Saving conda packages done
+2024-03-31 01:03:36,943 DEBUG   HandlerThread:9209 [system_info.py:_save_code():90] Saving code
+2024-03-31 01:03:36,943 WARNING HandlerThread:9209 [system_info.py:_save_code():92] unable to save code -- program entry not found
+2024-03-31 01:03:36,943 DEBUG   HandlerThread:9209 [system_info.py:_save_patches():128] Saving git patches
+2024-03-31 01:03:37,164 DEBUG   HandlerThread:9209 [system_info.py:_save_patches():170] Saving git patches done
+2024-03-31 01:03:37,164 INFO    HandlerThread:9209 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-31 01:03:37,172 DEBUG   SenderThread:9209 [sender.py:send():380] send: files
+2024-03-31 01:03:37,172 INFO    SenderThread:9209 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-03-31 01:03:37,172 INFO    SenderThread:9209 [sender.py:_save_file():1380] saving file diff.patch with policy now
+2024-03-31 01:03:37,181 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 01:03:37,181 DEBUG   SenderThread:9209 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 01:03:37,182 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:03:37,718 DEBUG   SenderThread:9209 [sender.py:send():380] send: telemetry
+2024-03-31 01:03:37,865 INFO    Thread-12 :9209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/conda-environment.yaml
+2024-03-31 01:03:37,866 INFO    Thread-12 :9209 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/diff.patch
+2024-03-31 01:03:37,866 INFO    Thread-12 :9209 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/wandb-metadata.json
+2024-03-31 01:03:38,566 INFO    wandb-upload_0:9209 [upload_job.py:push():131] Uploaded file /var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpahlvatc1wandb/1ivkfwjh-wandb-metadata.json
+2024-03-31 01:03:38,720 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 01:03:39,191 DEBUG   SenderThread:9209 [sender.py:send():380] send: use_artifact
+2024-03-31 01:03:39,905 INFO    wandb-upload_1:9209 [upload_job.py:push():131] Uploaded file /var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpahlvatc1wandb/u7r0n6d2-diff.patch
+2024-03-31 01:03:43,170 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 01:03:43,171 DEBUG   SenderThread:9209 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 01:03:43,177 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 01:03:43,177 INFO    HandlerThread:9209 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 01:03:43,177 INFO    HandlerThread:9209 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 01:03:43,179 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 01:03:43,179 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 01:03:43,180 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 01:03:43,183 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 01:03:43,184 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 01:03:43,184 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 01:03:43,184 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 01:03:43,184 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 01:03:44,449 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:03:44,450 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:03:45,912 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:03:45,913 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:03:48,295 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:03:48,295 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:03:48,296 INFO    SenderThread:9209 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/Users/A118390615/opt/anaconda3/envs/mlflow-e4fcefd643ef1ee947cfeff48521954cf08a16aa/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/graphql
+2024-03-31 01:03:52,184 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:03:52,186 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 01:03:53,204 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:03:53,204 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:03:56,421 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 01:03:56,421 INFO    HandlerThread:9209 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 01:03:56,421 INFO    HandlerThread:9209 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 01:03:56,422 INFO    SystemMonitor:9209 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 01:03:56,424 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 01:03:56,428 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 01:03:56,437 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 01:03:56,440 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 01:03:56,441 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started network monitoring
+2024-03-31 01:03:56,807 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 01:03:56,811 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 01:03:56,811 INFO    HandlerThread:9209 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 01:03:56,811 INFO    HandlerThread:9209 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 01:03:56,812 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 01:03:56,812 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 01:03:56,812 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 01:03:56,812 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 01:03:56,813 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 01:03:57,617 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 01:03:57,617 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 01:03:57,617 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 01:03:57,617 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:02,169 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:04:02,170 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:04:02,227 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:07,184 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:04:12,265 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:17,277 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:18,541 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:04:18,542 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:04:22,192 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:04:25,116 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 01:04:25,116 INFO    HandlerThread:9209 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 01:04:25,117 INFO    HandlerThread:9209 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 01:04:25,117 INFO    SystemMonitor:9209 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 01:04:25,118 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 01:04:25,121 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 01:04:25,126 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 01:04:25,129 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 01:04:25,129 INFO    SystemMonitor:9209 [interfaces.py:start():190] Started network monitoring
+2024-03-31 01:04:25,778 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 01:04:25,779 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 01:04:25,779 INFO    HandlerThread:9209 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 01:04:25,779 INFO    HandlerThread:9209 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 01:04:25,780 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 01:04:25,780 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 01:04:25,780 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 01:04:25,780 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 01:04:25,780 DEBUG   SystemMonitor:9209 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 01:04:25,999 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 01:04:25,999 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 01:04:25,999 INFO    HandlerThread:9209 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 01:04:27,318 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:32,329 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:37,195 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:04:42,356 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:47,384 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:04:52,200 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:04:55,659 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:04:55,659 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:04:57,401 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:02,413 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:07,200 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:05:12,452 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:17,487 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:22,204 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:05:27,509 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:32,521 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:37,207 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:05:42,557 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:47,576 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:05:52,209 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:05:57,596 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:02,611 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:04,801 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:06:04,801 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:06:07,215 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:06:12,647 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:17,652 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:22,217 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:06:27,689 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:32,699 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:37,220 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:06:42,728 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:47,743 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:06:52,225 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:06:57,774 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:02,787 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:07,230 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:07:12,811 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:17,825 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:22,232 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:07:27,839 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:32,847 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:37,233 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:07:42,886 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:47,902 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:07:52,238 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:07:57,933 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:02,939 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:07,244 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:08:12,963 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:17,975 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:22,248 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:08:28,005 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:33,016 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:37,252 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:08:43,054 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:45,036 ERROR   SenderThread:9209 [internal_api.py:execute():370] 500 response executing GraphQL.
+2024-03-31 01:08:45,036 ERROR   SenderThread:9209 [internal_api.py:execute():371] {"errors":[{"message":"An internal error occurred. Please contact support.","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-03-31 01:08:48,072 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:08:52,257 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:08:58,096 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:03,110 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:07,259 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:09:13,140 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:18,153 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:22,262 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:09:28,176 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:33,195 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:37,264 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 01:09:43,231 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:48,247 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:53,224 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 01:09:58,434 DEBUG   HandlerThread:9209 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 01:09:59,929 WARNING StreamThr :9209 [internal.py:is_dead():414] Internal process exiting, parent pid 9132 disappeared
+2024-03-31 01:09:59,929 ERROR   StreamThr :9209 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-03-31 01:10:00,443 INFO    WriterThread:9209 [datastore.py:close():294] close: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/run-jtgm8h2p.wandb
+2024-03-31 01:10:00,444 INFO    HandlerThread:9209 [handler.py:finish():866] shutting down handler
+2024-03-31 01:13:32,528 INFO    wandb-upload_0:9209 [upload_job.py:push():89] Uploaded file /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmpe8dde1tf
+2024-03-31 01:13:35,858 INFO    SenderThread:9209 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3MjE5MjQx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': None}}
+2024-03-31 01:13:35,858 INFO    SenderThread:9209 [sender.py:finish():1536] shutting down sender
+2024-03-31 01:13:35,858 INFO    SenderThread:9209 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-31 01:13:36,648 INFO    SenderThread:9209 [dir_watcher.py:finish():388] scan: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files
+2024-03-31 01:13:36,648 INFO    SenderThread:9209 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/diff.patch diff.patch
+2024-03-31 01:13:36,648 INFO    SenderThread:9209 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/requirements.txt requirements.txt
+2024-03-31 01:13:36,648 INFO    SenderThread:9209 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/config.yaml config.yaml
+2024-03-31 01:13:36,649 INFO    SenderThread:9209 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/conda-environment.yaml conda-environment.yaml
+2024-03-31 01:13:36,650 INFO    SenderThread:9209 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/wandb-metadata.json wandb-metadata.json
+2024-03-31 01:13:36,650 INFO    SenderThread:9209 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-31 01:13:36,650 INFO    SenderThread:9209 [file_pusher.py:join():181] waiting for file pusher
+2024-03-31 01:13:37,674 INFO    wandb-upload_0:9209 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/config.yaml
+2024-03-31 01:13:37,674 INFO    wandb-upload_2:9209 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/conda-environment.yaml
+2024-03-31 01:13:37,674 INFO    wandb-upload_1:9209 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_010333-jtgm8h2p/files/requirements.txt
+2024-03-31 01:13:38,158 INFO    SenderThread:9209 [file_stream.py:finish():595] file stream finish called
+2024-03-31 01:13:38,722 INFO    SenderThread:9209 [file_stream.py:finish():599] file stream finish is done

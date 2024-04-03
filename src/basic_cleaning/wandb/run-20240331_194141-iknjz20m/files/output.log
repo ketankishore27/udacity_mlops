@@ -1,0 +1,9 @@
+2024-03-31 19:41:45,959 Dataset price outliers removal outside range: 10-350
+2024-03-31 19:41:45,964 Dataset last_review data type fix
+Traceback (most recent call last):
+  File "/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py", line 107, in <module>
+    go(args)
+  File "/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py", line 38, in go
+    tmp_artifact_path = os.path.join(args.tmp_directory, args.output_artifact)
+                                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'tmp_directory'

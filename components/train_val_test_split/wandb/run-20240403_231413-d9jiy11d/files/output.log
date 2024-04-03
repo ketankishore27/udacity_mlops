@@ -1,0 +1,5 @@
+
+2024-04-03 23:14:16,098 Fetching artifact clean_sample.csv:latest
+2024-04-03 23:14:18,329 Splitting trainval and test
+2024-04-03 23:14:18,344 Uploading trainval_data.csv dataset
+2024-04-03 23:14:22,951 Uploading test_data.csv dataset

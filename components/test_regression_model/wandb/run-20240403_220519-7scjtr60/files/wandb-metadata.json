@@ -1,0 +1,54 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-04-03T16:35:21.003515",
+    "startedAt": "2024-04-03T16:35:19.980263",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--mlflow_model",
+        "random_forest_export:prod",
+        "--test_dataset",
+        "test_data.csv:latest"
+    ],
+    "state": "running",
+    "program": "/Users/A118390615/Desktop/udacity/udacity_mlops/components/test_regression_model/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "components/test_regression_model/run.py",
+    "git": {
+        "remote": "https://github.com/ketankishore27/udacity_mlops.git",
+        "commit": "17bfa26ae9776fa0db9157db6582c7604a5de4f9"
+    },
+    "email": "ketan.kishore@t-systems.com",
+    "root": "/Users/A118390615/Desktop/udacity/udacity_mlops",
+    "host": "T000ea983e",
+    "username": "A118390615",
+    "executable": "/Users/A118390615/opt/anaconda3/envs/mlflow-aca668dff4b4e454dd502d3d803604a064e08173/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 9.537723541259766
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

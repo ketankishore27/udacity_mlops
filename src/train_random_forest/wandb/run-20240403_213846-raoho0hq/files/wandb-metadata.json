@@ -1,0 +1,64 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-04-03T16:08:47.788262",
+    "startedAt": "2024-04-03T16:08:46.862169",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/Users/A118390615/Desktop/udacity/udacity_mlops/multirun/2024-04-03/21-36-00/4/rf_config.json",
+        "--max_tfidf_features",
+        "15",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/Users/A118390615/Desktop/udacity/udacity_mlops/src/train_random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/ketankishore27/udacity_mlops.git",
+        "commit": "17bfa26ae9776fa0db9157db6582c7604a5de4f9"
+    },
+    "email": "ketan.kishore@t-systems.com",
+    "root": "/Users/A118390615/Desktop/udacity/udacity_mlops",
+    "host": "T000ea983e",
+    "username": "A118390615",
+    "executable": "/Users/A118390615/opt/anaconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 9.537723541259766
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

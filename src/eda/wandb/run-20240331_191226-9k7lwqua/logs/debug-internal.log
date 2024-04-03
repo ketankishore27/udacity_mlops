@@ -1,0 +1,453 @@
+2024-03-31 19:12:26,689 INFO    StreamThr :50255 [internal.py:wandb_internal():86] W&B internal server running at pid: 50255, started at: 2024-03-31 19:12:26.687720
+2024-03-31 19:12:26,689 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status
+2024-03-31 19:12:26,693 INFO    WriterThread:50255 [datastore.py:open_for_write():85] open: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/run-9k7lwqua.wandb
+2024-03-31 19:12:26,694 DEBUG   SenderThread:50255 [sender.py:send():380] send: header
+2024-03-31 19:12:26,733 DEBUG   SenderThread:50255 [sender.py:send():380] send: run
+2024-03-31 19:12:27,586 INFO    SenderThread:50255 [dir_watcher.py:__init__():211] watching files in: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files
+2024-03-31 19:12:27,586 INFO    SenderThread:50255 [sender.py:_start_run_threads():1124] run started: 9k7lwqua with start time 1711892546.688586
+2024-03-31 19:12:27,589 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: check_version
+2024-03-31 19:12:27,589 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: check_version
+2024-03-31 19:12:27,651 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: run_start
+2024-03-31 19:12:27,658 DEBUG   HandlerThread:50255 [system_info.py:__init__():32] System info init
+2024-03-31 19:12:27,659 DEBUG   HandlerThread:50255 [system_info.py:__init__():47] System info init done
+2024-03-31 19:12:27,659 INFO    HandlerThread:50255 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 19:12:27,659 INFO    SystemMonitor:50255 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 19:12:27,659 INFO    HandlerThread:50255 [system_monitor.py:probe():214] Collecting system info
+2024-03-31 19:12:27,660 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 19:12:27,661 DEBUG   HandlerThread:50255 [system_info.py:probe():196] Probing system
+2024-03-31 19:12:27,661 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 19:12:27,662 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 19:12:27,664 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 19:12:27,666 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started network monitoring
+2024-03-31 19:12:27,674 DEBUG   HandlerThread:50255 [system_info.py:_probe_git():181] Probing git
+2024-03-31 19:12:27,718 DEBUG   HandlerThread:50255 [system_info.py:_probe_git():189] Probing git done
+2024-03-31 19:12:27,718 DEBUG   HandlerThread:50255 [system_info.py:probe():244] Probing system done
+2024-03-31 19:12:27,718 DEBUG   HandlerThread:50255 [system_monitor.py:probe():223] {'os': 'macOS-14.4-arm64-arm-64bit', 'python': '3.10.14', 'heartbeatAt': '2024-03-31T13:42:27.661211', 'startedAt': '2024-03-31T13:42:26.676377', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Untitled.ipynb', 'codePathLocal': 'Untitled.ipynb', 'root': '/Users/A118390615/Desktop/udacity/udacity_mlops', 'git': {'remote': 'https://github.com/ketankishore27/udacity_mlops.git', 'commit': '17bfa26ae9776fa0db9157db6582c7604a5de4f9'}, 'email': 'ketan.kishore@t-systems.com', 'host': 'T000ea983e', 'username': 'A118390615', 'executable': '/Users/A118390615/opt/anaconda3/envs/mlflow-e9adfc5ea600ca193719a9db2e872b1caf20e185/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 460.4317207336426, 'used': 440.64550399780273}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-03-31 19:12:27,718 INFO    HandlerThread:50255 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-31 19:12:27,718 INFO    HandlerThread:50255 [system_monitor.py:probe():227] Publishing system info
+2024-03-31 19:12:27,718 DEBUG   HandlerThread:50255 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-03-31 19:12:27,719 DEBUG   HandlerThread:50255 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-31 19:12:27,719 DEBUG   HandlerThread:50255 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-03-31 19:12:28,591 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/conda-environment.yaml
+2024-03-31 19:12:28,592 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/requirements.txt
+2024-03-31 19:12:30,254 DEBUG   HandlerThread:50255 [system_info.py:_save_conda():87] Saving conda packages done
+2024-03-31 19:12:30,255 DEBUG   HandlerThread:50255 [system_info.py:_save_code():90] Saving code
+2024-03-31 19:12:30,255 WARNING HandlerThread:50255 [system_info.py:_save_code():92] unable to save code -- program entry not found
+2024-03-31 19:12:30,255 DEBUG   HandlerThread:50255 [system_info.py:_save_patches():128] Saving git patches
+2024-03-31 19:12:30,517 DEBUG   HandlerThread:50255 [system_info.py:_save_patches():170] Saving git patches done
+2024-03-31 19:12:30,519 INFO    HandlerThread:50255 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-31 19:12:30,523 DEBUG   SenderThread:50255 [sender.py:send():380] send: files
+2024-03-31 19:12:30,523 INFO    SenderThread:50255 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-03-31 19:12:30,523 INFO    SenderThread:50255 [sender.py:_save_file():1380] saving file diff.patch with policy now
+2024-03-31 19:12:30,537 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:12:30,537 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:12:30,538 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:12:30,601 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/conda-environment.yaml
+2024-03-31 19:12:30,601 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/diff.patch
+2024-03-31 19:12:30,601 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/wandb-metadata.json
+2024-03-31 19:12:33,419 DEBUG   SenderThread:50255 [sender.py:send():380] send: telemetry
+2024-03-31 19:12:33,420 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:12:34,038 INFO    wandb-upload_0:50255 [upload_job.py:push():131] Uploaded file /var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpoprvq9ibwandb/rt2escte-wandb-metadata.json
+2024-03-31 19:12:34,548 DEBUG   SenderThread:50255 [sender.py:send():380] send: use_artifact
+2024-03-31 19:12:35,438 INFO    wandb-upload_1:50255 [upload_job.py:push():131] Uploaded file /var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpoprvq9ibwandb/e7sm7ejx-diff.patch
+2024-03-31 19:12:35,830 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 19:12:35,831 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 19:12:35,839 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 19:12:35,839 INFO    HandlerThread:50255 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 19:12:35,839 INFO    HandlerThread:50255 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 19:12:35,841 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 19:12:35,842 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 19:12:35,842 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 19:12:35,843 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 19:12:35,843 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 19:12:35,843 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 19:12:35,847 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 19:12:35,848 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 19:12:35,852 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 19:12:35,852 INFO    HandlerThread:50255 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 19:12:35,852 INFO    HandlerThread:50255 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 19:12:35,852 INFO    SystemMonitor:50255 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 19:12:35,853 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 19:12:35,853 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 19:12:35,858 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 19:12:35,859 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 19:12:35,860 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started network monitoring
+2024-03-31 19:12:39,006 INFO    wandb-upload_0:50255 [upload_job.py:push():89] Uploaded file /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmpygyqqanq
+2024-03-31 19:12:40,656 INFO    SenderThread:50255 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODM4NTky', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3ODM1Nzk4', 'versionIndex': 5}}}
+2024-03-31 19:12:40,656 DEBUG   SenderThread:50255 [sender.py:send():380] send: telemetry
+2024-03-31 19:12:40,656 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:12:40,656 DEBUG   SenderThread:50255 [sender.py:send():380] send: stats
+2024-03-31 19:12:45,541 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:12:45,544 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:12:45,545 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:12:45,920 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:12:50,926 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:12:55,939 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:12:56,370 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 19:12:56,370 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 19:12:56,372 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 19:12:56,373 INFO    HandlerThread:50255 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 19:12:56,373 INFO    HandlerThread:50255 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 19:12:56,373 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 19:12:56,373 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 19:12:56,373 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 19:12:56,374 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 19:12:56,373 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 19:12:56,695 INFO    SenderThread:50255 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODM4NTky', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3ODM4NTky', 'versionIndex': 6}}}
+2024-03-31 19:12:57,211 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 19:12:57,212 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 19:12:57,212 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 19:12:57,212 DEBUG   SenderThread:50255 [sender.py:send():380] send: stats
+2024-03-31 19:13:00,543 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:13:00,544 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:13:00,544 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:13:03,758 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:04,704 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/config.yaml
+2024-03-31 19:13:09,138 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:14,158 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:15,550 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:13:15,550 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:13:15,551 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:13:20,086 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:25,103 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:30,121 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:30,554 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:13:30,554 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:13:30,555 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:13:35,445 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:40,475 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:45,494 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:45,558 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:13:45,558 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:13:45,559 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:13:50,943 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:13:55,961 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:00,559 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:14:00,562 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:14:00,562 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:14:03,714 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:08,746 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:13,765 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:15,563 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:14:15,567 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:14:15,567 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:14:18,906 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:23,928 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:28,948 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:30,571 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:14:30,572 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:14:30,573 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:14:33,985 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:39,003 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:44,024 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:45,575 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:14:45,575 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:14:45,575 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:14:49,064 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:54,086 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:14:59,100 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:00,577 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:15:00,578 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:15:00,579 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:15:05,035 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:10,063 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:15,085 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:15,577 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:15:15,580 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:15:15,581 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:15:20,999 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:26,022 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:30,581 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:15:30,585 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:15:30,585 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:15:31,954 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:36,973 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:38,249 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 19:15:38,249 INFO    HandlerThread:50255 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 19:15:38,249 INFO    HandlerThread:50255 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 19:15:38,250 INFO    SystemMonitor:50255 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 19:15:38,252 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 19:15:38,254 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 19:15:38,260 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 19:15:38,263 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 19:15:38,264 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started network monitoring
+2024-03-31 19:15:38,620 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 19:15:38,622 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 19:15:38,625 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 19:15:38,629 INFO    HandlerThread:50255 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 19:15:38,629 INFO    HandlerThread:50255 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 19:15:38,629 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 19:15:38,629 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 19:15:38,629 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 19:15:38,629 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 19:15:38,629 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 19:15:39,124 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 19:15:39,124 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 19:15:39,124 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 19:15:40,531 INFO    wandb-upload_1:50255 [upload_job.py:push():89] Uploaded file /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmp8qj4w_43
+2024-03-31 19:15:41,803 INFO    SenderThread:50255 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODQwMTMx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3ODM4NTky', 'versionIndex': 6}}}
+2024-03-31 19:15:41,804 DEBUG   SenderThread:50255 [sender.py:send():380] send: stats
+2024-03-31 19:15:42,811 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:45,016 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 19:15:45,017 INFO    HandlerThread:50255 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 19:15:45,017 INFO    HandlerThread:50255 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 19:15:45,017 INFO    SystemMonitor:50255 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 19:15:45,021 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 19:15:45,023 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 19:15:45,031 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 19:15:45,033 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 19:15:45,035 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started network monitoring
+2024-03-31 19:15:45,586 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:15:45,602 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:15:45,602 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:15:48,079 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:53,084 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:15:58,100 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:00,586 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:16:00,599 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:16:00,599 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:16:03,915 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 19:16:03,916 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 19:16:03,918 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 19:16:03,918 INFO    HandlerThread:50255 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 19:16:03,918 INFO    HandlerThread:50255 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 19:16:03,918 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 19:16:03,919 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 19:16:03,919 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 19:16:03,919 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 19:16:03,919 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 19:16:03,919 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 19:16:03,920 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 19:16:03,920 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 19:16:04,419 INFO    SenderThread:50255 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODQwMTMx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3ODQwMTMx', 'versionIndex': 7}}}
+2024-03-31 19:16:04,419 DEBUG   SenderThread:50255 [sender.py:send():380] send: stats
+2024-03-31 19:16:04,419 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:09,435 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:14,456 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:15,587 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:16:15,603 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:16:15,604 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:16:20,050 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:25,062 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:30,084 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:30,590 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:16:30,607 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:16:30,608 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:16:35,609 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:40,627 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:45,589 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:16:45,610 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:16:45,611 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:16:45,953 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:50,976 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:51,498 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 19:16:51,499 INFO    HandlerThread:50255 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 19:16:51,499 INFO    HandlerThread:50255 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 19:16:51,499 INFO    SystemMonitor:50255 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 19:16:51,501 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 19:16:51,503 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 19:16:51,509 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 19:16:51,511 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 19:16:51,512 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started network monitoring
+2024-03-31 19:16:51,736 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/output.log
+2024-03-31 19:16:53,747 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/output.log
+2024-03-31 19:16:56,550 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:16:58,338 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 19:16:58,341 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: pause
+2024-03-31 19:16:58,341 INFO    HandlerThread:50255 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-03-31 19:16:58,341 INFO    HandlerThread:50255 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 19:16:58,341 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 19:16:58,345 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 19:16:58,345 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 19:16:58,346 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 19:16:58,346 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 19:16:58,346 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 19:16:58,652 INFO    SenderThread:50255 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODQwMTMx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3ODQwMTMx', 'versionIndex': 7}}}
+2024-03-31 19:16:59,206 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 19:16:59,206 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 19:16:59,207 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 19:16:59,207 DEBUG   SenderThread:50255 [sender.py:send():380] send: stats
+2024-03-31 19:17:00,595 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:17:00,615 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:17:00,616 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:17:02,020 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:07,044 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:12,062 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:15,594 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:17:15,616 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-31 19:17:15,616 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: stop_status
+2024-03-31 19:17:17,999 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:18,918 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: resume
+2024-03-31 19:17:18,922 INFO    HandlerThread:50255 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-03-31 19:17:18,923 INFO    HandlerThread:50255 [system_monitor.py:start():194] Starting system monitor
+2024-03-31 19:17:18,930 INFO    SystemMonitor:50255 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-31 19:17:18,931 DEBUG   SenderThread:50255 [sender.py:send():380] send: telemetry
+2024-03-31 19:17:18,934 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started cpu monitoring
+2024-03-31 19:17:18,938 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started disk monitoring
+2024-03-31 19:17:18,940 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-31 19:17:18,943 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started memory monitoring
+2024-03-31 19:17:18,944 INFO    SystemMonitor:50255 [interfaces.py:start():190] Started network monitoring
+2024-03-31 19:17:18,970 DEBUG   SenderThread:50255 [sender.py:send():380] send: config
+2024-03-31 19:17:19,317 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-31 19:17:19,318 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: log_artifact
+2024-03-31 19:17:19,885 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/code/_session_history.ipynb
+2024-03-31 19:17:19,885 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/code
+2024-03-31 19:17:20,321 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:20,763 INFO    wandb-upload_0:50255 [upload_job.py:push():86] Skipped uploading /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmpdij0oo5o
+2024-03-31 19:17:21,879 INFO    wandb-upload_1:50255 [upload_job.py:push():89] Uploaded file /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmpcpmwjd7l
+2024-03-31 19:17:23,339 INFO    SenderThread:50255 [sender.py:send_request_log_artifact():1446] logged artifact source-NYC_AirBNB-Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODQxMTAw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3MzY2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3ODQwMTMx', 'versionIndex': 7}}}
+2024-03-31 19:17:23,339 DEBUG   SenderThread:50255 [sender.py:send():380] send: exit
+2024-03-31 19:17:23,340 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:23,340 INFO    SenderThread:50255 [sender.py:send_exit():585] handling exit code: 0
+2024-03-31 19:17:23,340 INFO    SenderThread:50255 [sender.py:send_exit():587] handling runtime: 57
+2024-03-31 19:17:23,342 INFO    SenderThread:50255 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-03-31 19:17:23,343 INFO    SenderThread:50255 [sender.py:send_exit():593] send defer
+2024-03-31 19:17:23,344 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:23,344 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,344 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-31 19:17:23,345 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,346 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-31 19:17:23,346 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 1
+2024-03-31 19:17:23,346 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,346 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-31 19:17:23,346 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,346 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-31 19:17:23,347 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 2
+2024-03-31 19:17:23,347 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,347 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-31 19:17:23,347 INFO    HandlerThread:50255 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-31 19:17:23,347 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-31 19:17:23,347 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-31 19:17:23,348 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined disk monitor
+2024-03-31 19:17:23,348 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-31 19:17:23,348 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined memory monitor
+2024-03-31 19:17:23,348 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-31 19:17:23,349 INFO    HandlerThread:50255 [interfaces.py:finish():202] Joined network monitor
+2024-03-31 19:17:23,349 DEBUG   SystemMonitor:50255 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-31 19:17:23,351 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,351 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-31 19:17:23,354 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 3
+2024-03-31 19:17:23,354 DEBUG   SenderThread:50255 [sender.py:send():380] send: stats
+2024-03-31 19:17:23,354 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,354 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-31 19:17:23,355 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,355 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-31 19:17:23,355 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 4
+2024-03-31 19:17:23,355 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,355 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-31 19:17:23,356 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,356 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-31 19:17:23,356 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 5
+2024-03-31 19:17:23,356 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,356 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-31 19:17:23,356 DEBUG   SenderThread:50255 [sender.py:send():380] send: summary
+2024-03-31 19:17:23,362 INFO    SenderThread:50255 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-03-31 19:17:23,362 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,362 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-31 19:17:23,363 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 6
+2024-03-31 19:17:23,363 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,363 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-31 19:17:23,363 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,363 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-31 19:17:23,371 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:23,717 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 7
+2024-03-31 19:17:23,717 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:23,717 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-31 19:17:23,718 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:23,718 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-31 19:17:23,904 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/config.yaml
+2024-03-31 19:17:23,904 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/wandb-summary.json
+2024-03-31 19:17:24,336 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:25,603 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 8
+2024-03-31 19:17:25,603 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:25,603 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:25,604 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-31 19:17:25,604 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:25,604 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-31 19:17:25,604 INFO    SenderThread:50255 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-31 19:17:25,796 INFO    SenderThread:50255 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-31 19:17:25,796 INFO    SenderThread:50255 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-03-31 19:17:25,800 INFO    SenderThread:50255 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-31 19:17:25,822 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 9
+2024-03-31 19:17:25,823 DEBUG   SenderThread:50255 [sender.py:send():380] send: artifact
+2024-03-31 19:17:25,829 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:25,830 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-31 19:17:25,919 INFO    Thread-12 :50255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/output.log
+2024-03-31 19:17:26,357 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:27,468 INFO    wandb-upload_1:50255 [upload_job.py:push():86] Skipped uploading /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmphzyuyklr
+2024-03-31 19:17:28,088 INFO    wandb-upload_0:50255 [upload_job.py:push():89] Uploaded file /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmpyb1kctpe
+2024-03-31 19:17:29,372 INFO    wandb-upload_2:50255 [upload_job.py:push():89] Uploaded file /Users/A118390615/Library/Application Support/wandb/artifacts/staging/tmpzl7stpp3
+2024-03-31 19:17:31,376 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-31 19:17:34,570 INFO    SenderThread:50255 [sender.py:send_artifact():1458] sent artifact job-https___github.com_ketankishore27_udacity_mlops.git_Untitled.ipynb - {'id': 'QXJ0aWZhY3Q6Nzc3ODQxMTUw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDI3NDQzNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3MjIzODgx', 'versionIndex': 0}}}
+2024-03-31 19:17:34,570 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:34,570 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: status_report
+2024-03-31 19:17:34,570 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-31 19:17:34,571 INFO    SenderThread:50255 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-31 19:17:34,953 INFO    SenderThread:50255 [dir_watcher.py:finish():388] scan: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files
+2024-03-31 19:17:34,953 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/diff.patch diff.patch
+2024-03-31 19:17:34,954 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/requirements.txt requirements.txt
+2024-03-31 19:17:34,954 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/output.log output.log
+2024-03-31 19:17:34,954 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/config.yaml config.yaml
+2024-03-31 19:17:34,954 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/wandb-summary.json wandb-summary.json
+2024-03-31 19:17:34,961 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/conda-environment.yaml conda-environment.yaml
+2024-03-31 19:17:34,962 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/wandb-metadata.json wandb-metadata.json
+2024-03-31 19:17:34,978 INFO    SenderThread:50255 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-03-31 19:17:34,978 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 10
+2024-03-31 19:17:34,979 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:34,983 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:34,983 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-31 19:17:34,984 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:34,985 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-31 19:17:34,985 INFO    SenderThread:50255 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-31 19:17:35,385 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:35,385 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:35,862 INFO    wandb-upload_0:50255 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/output.log
+2024-03-31 19:17:36,200 INFO    wandb-upload_3:50255 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/wandb-summary.json
+2024-03-31 19:17:36,200 INFO    wandb-upload_1:50255 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/requirements.txt
+2024-03-31 19:17:36,200 INFO    wandb-upload_2:50255 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/config.yaml
+2024-03-31 19:17:36,374 INFO    wandb-upload_4:50255 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/conda-environment.yaml
+2024-03-31 19:17:36,386 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:36,387 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:36,727 INFO    wandb-upload_5:50255 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/files/code/_session_history.ipynb
+2024-03-31 19:17:36,933 INFO    Thread-11 (_thread_body):50255 [sender.py:transition_state():613] send defer: 11
+2024-03-31 19:17:36,938 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:36,939 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-31 19:17:36,940 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:36,940 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-31 19:17:36,940 INFO    SenderThread:50255 [file_pusher.py:join():181] waiting for file pusher
+2024-03-31 19:17:36,940 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 12
+2024-03-31 19:17:36,940 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:36,940 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-31 19:17:36,940 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:36,940 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-31 19:17:36,940 INFO    SenderThread:50255 [file_stream.py:finish():595] file stream finish called
+2024-03-31 19:17:37,392 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:38,011 INFO    SenderThread:50255 [file_stream.py:finish():599] file stream finish is done
+2024-03-31 19:17:38,012 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 13
+2024-03-31 19:17:38,012 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:38,012 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:38,012 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-31 19:17:38,013 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:38,013 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-31 19:17:38,013 INFO    SenderThread:50255 [sender.py:transition_state():613] send defer: 14
+2024-03-31 19:17:38,013 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: defer
+2024-03-31 19:17:38,013 INFO    HandlerThread:50255 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-31 19:17:38,013 DEBUG   SenderThread:50255 [sender.py:send():380] send: final
+2024-03-31 19:17:38,014 DEBUG   SenderThread:50255 [sender.py:send():380] send: footer
+2024-03-31 19:17:38,014 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: defer
+2024-03-31 19:17:38,014 INFO    SenderThread:50255 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-31 19:17:38,015 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-31 19:17:38,015 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: poll_exit
+2024-03-31 19:17:38,018 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-31 19:17:38,022 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: server_info
+2024-03-31 19:17:38,023 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: server_info
+2024-03-31 19:17:38,025 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-31 19:17:38,026 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-31 19:17:38,026 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: job_info
+2024-03-31 19:17:38,458 DEBUG   SenderThread:50255 [sender.py:send_request():407] send_request: job_info
+2024-03-31 19:17:38,459 DEBUG   HandlerThread:50255 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-31 19:17:38,459 INFO    HandlerThread:50255 [handler.py:finish():866] shutting down handler
+2024-03-31 19:17:39,031 INFO    WriterThread:50255 [datastore.py:close():294] close: /Users/A118390615/Desktop/udacity/udacity_mlops/src/eda/wandb/run-20240331_191226-9k7lwqua/run-9k7lwqua.wandb
+2024-03-31 19:17:39,461 INFO    SenderThread:50255 [sender.py:finish():1536] shutting down sender
+2024-03-31 19:17:39,461 INFO    SenderThread:50255 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-31 19:17:39,461 INFO    SenderThread:50255 [file_pusher.py:join():181] waiting for file pusher

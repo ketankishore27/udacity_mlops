@@ -1,0 +1,193 @@
+2024-04-03 23:03:42,912 INFO    StreamThr :64390 [internal.py:wandb_internal():86] W&B internal server running at pid: 64390, started at: 2024-04-03 23:03:42.906466
+2024-04-03 23:03:42,914 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: status
+2024-04-03 23:03:42,936 INFO    WriterThread:64390 [datastore.py:open_for_write():85] open: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/run-1pbxrgft.wandb
+2024-04-03 23:03:42,940 DEBUG   SenderThread:64390 [sender.py:send():380] send: header
+2024-04-03 23:03:42,982 DEBUG   SenderThread:64390 [sender.py:send():380] send: run
+2024-04-03 23:03:43,697 INFO    SenderThread:64390 [dir_watcher.py:__init__():211] watching files in: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files
+2024-04-03 23:03:43,697 INFO    SenderThread:64390 [sender.py:_start_run_threads():1124] run started: 1pbxrgft with start time 1712165622.933117
+2024-04-03 23:03:43,702 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: check_version
+2024-04-03 23:03:43,702 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: check_version
+2024-04-03 23:03:43,771 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: run_start
+2024-04-03 23:03:43,787 DEBUG   HandlerThread:64390 [system_info.py:__init__():32] System info init
+2024-04-03 23:03:43,788 DEBUG   HandlerThread:64390 [system_info.py:__init__():47] System info init done
+2024-04-03 23:03:43,788 INFO    HandlerThread:64390 [system_monitor.py:start():194] Starting system monitor
+2024-04-03 23:03:43,788 INFO    SystemMonitor:64390 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-03 23:03:43,788 INFO    HandlerThread:64390 [system_monitor.py:probe():214] Collecting system info
+2024-04-03 23:03:43,789 INFO    SystemMonitor:64390 [interfaces.py:start():190] Started cpu monitoring
+2024-04-03 23:03:43,790 DEBUG   HandlerThread:64390 [system_info.py:probe():196] Probing system
+2024-04-03 23:03:43,791 INFO    SystemMonitor:64390 [interfaces.py:start():190] Started disk monitoring
+2024-04-03 23:03:43,792 INFO    SystemMonitor:64390 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-03 23:03:43,797 INFO    SystemMonitor:64390 [interfaces.py:start():190] Started memory monitoring
+2024-04-03 23:03:43,798 INFO    SystemMonitor:64390 [interfaces.py:start():190] Started network monitoring
+2024-04-03 23:03:43,810 DEBUG   HandlerThread:64390 [system_info.py:_probe_git():181] Probing git
+2024-04-03 23:03:43,847 DEBUG   HandlerThread:64390 [system_info.py:_probe_git():189] Probing git done
+2024-04-03 23:03:43,847 DEBUG   HandlerThread:64390 [system_info.py:probe():244] Probing system done
+2024-04-03 23:03:43,847 DEBUG   HandlerThread:64390 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.12.2', 'heartbeatAt': '2024-04-03T17:33:43.791784', 'startedAt': '2024-04-03T17:33:42.890986', 'docker': None, 'cuda': None, 'args': ('--tmp_directory', '/var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmp6h1fmspy', '--input_artifact', 'sample1.csv:latest', '--output_artifact', 'clean_sample.csv', '--output_type', 'clean_sample', '--output_description', 'Data with outliers and null values removed', '--min_price', '10', '--max_price', '350'), 'state': 'running', 'program': '/Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/run.py', 'codePathLocal': 'run.py', 'codePath': 'src/basic_cleaning/run.py', 'git': {'remote': 'https://github.com/ketankishore27/udacity_mlops.git', 'commit': '17bfa26ae9776fa0db9157db6582c7604a5de4f9'}, 'email': 'ketan.kishore@t-systems.com', 'root': '/Users/A118390615/Desktop/udacity/udacity_mlops', 'host': 'T000ea983e', 'username': 'A118390615', 'executable': '/Users/A118390615/opt/anaconda3/envs/mlflow-f8af480623f11aa4a64dd07cb7f091d791a2f857/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 460.4317207336426, 'used': 9.537723541259766}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-04-03 23:03:43,848 INFO    HandlerThread:64390 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-03 23:03:43,848 INFO    HandlerThread:64390 [system_monitor.py:probe():227] Publishing system info
+2024-04-03 23:03:43,848 DEBUG   HandlerThread:64390 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-04-03 23:03:43,849 DEBUG   HandlerThread:64390 [system_info.py:_save_pip():68] Saving pip packages done
+2024-04-03 23:03:43,849 DEBUG   HandlerThread:64390 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-04-03 23:03:44,703 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/conda-environment.yaml
+2024-04-03 23:03:44,703 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/requirements.txt
+2024-04-03 23:03:46,492 DEBUG   HandlerThread:64390 [system_info.py:_save_conda():87] Saving conda packages done
+2024-04-03 23:03:46,494 INFO    HandlerThread:64390 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-03 23:03:46,510 DEBUG   SenderThread:64390 [sender.py:send():380] send: files
+2024-04-03 23:03:46,510 INFO    SenderThread:64390 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-04-03 23:03:46,513 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-03 23:03:46,513 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: stop_status
+2024-04-03 23:03:46,514 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-03 23:03:46,710 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/conda-environment.yaml
+2024-04-03 23:03:46,710 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/wandb-metadata.json
+2024-04-03 23:03:46,885 DEBUG   SenderThread:64390 [sender.py:send():380] send: telemetry
+2024-04-03 23:03:46,885 DEBUG   SenderThread:64390 [sender.py:send():380] send: config
+2024-04-03 23:03:47,671 INFO    wandb-upload_0:64390 [upload_job.py:push():131] Uploaded file /var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpe1ajp60uwandb/4kozu152-wandb-metadata.json
+2024-04-03 23:03:47,713 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log
+2024-04-03 23:03:47,863 DEBUG   SenderThread:64390 [sender.py:send():380] send: use_artifact
+2024-04-03 23:03:48,676 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: status_report
+2024-04-03 23:03:49,209 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-03 23:03:49,209 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: log_artifact
+2024-04-03 23:03:49,724 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log
+2024-04-03 23:03:50,121 INFO    SenderThread:64390 [sender.py:send_request_log_artifact():1446] logged artifact clean_sample.csv - {'id': 'QXJ0aWZhY3Q6Nzc3OTkwMTcx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDUzMjcwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3OTkwMTcx', 'versionIndex': 0}}}
+2024-04-03 23:03:50,725 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log
+2024-04-03 23:03:51,211 DEBUG   SenderThread:64390 [sender.py:send():380] send: exit
+2024-04-03 23:03:51,211 INFO    SenderThread:64390 [sender.py:send_exit():585] handling exit code: 0
+2024-04-03 23:03:51,212 INFO    SenderThread:64390 [sender.py:send_exit():587] handling runtime: 7
+2024-04-03 23:03:51,213 INFO    SenderThread:64390 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-04-03 23:03:51,213 INFO    SenderThread:64390 [sender.py:send_exit():593] send defer
+2024-04-03 23:03:51,213 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,214 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-03 23:03:51,214 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,214 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-04-03 23:03:51,214 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 1
+2024-04-03 23:03:51,214 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,214 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-03 23:03:51,214 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,214 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-04-03 23:03:51,214 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 2
+2024-04-03 23:03:51,215 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,215 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-03 23:03:51,215 INFO    HandlerThread:64390 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-03 23:03:51,215 INFO    HandlerThread:64390 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-03 23:03:51,216 DEBUG   SystemMonitor:64390 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-03 23:03:51,216 INFO    HandlerThread:64390 [interfaces.py:finish():202] Joined disk monitor
+2024-04-03 23:03:51,216 DEBUG   SystemMonitor:64390 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-03 23:03:51,216 INFO    HandlerThread:64390 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-03 23:03:51,216 DEBUG   SystemMonitor:64390 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-03 23:03:51,216 INFO    HandlerThread:64390 [interfaces.py:finish():202] Joined memory monitor
+2024-04-03 23:03:51,217 INFO    HandlerThread:64390 [interfaces.py:finish():202] Joined network monitor
+2024-04-03 23:03:51,217 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,217 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-04-03 23:03:51,217 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 3
+2024-04-03 23:03:51,217 DEBUG   SenderThread:64390 [sender.py:send():380] send: telemetry
+2024-04-03 23:03:51,217 DEBUG   SenderThread:64390 [sender.py:send():380] send: stats
+2024-04-03 23:03:51,217 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,218 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-03 23:03:51,218 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,218 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-04-03 23:03:51,218 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 4
+2024-04-03 23:03:51,218 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,218 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-03 23:03:51,218 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,218 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-04-03 23:03:51,218 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 5
+2024-04-03 23:03:51,218 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,218 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-03 23:03:51,218 DEBUG   SenderThread:64390 [sender.py:send():380] send: summary
+2024-04-03 23:03:51,225 INFO    SenderThread:64390 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-04-03 23:03:51,225 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,225 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-04-03 23:03:51,225 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 6
+2024-04-03 23:03:51,226 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,226 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-03 23:03:51,226 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,226 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-04-03 23:03:51,228 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: status_report
+2024-04-03 23:03:51,550 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 7
+2024-04-03 23:03:51,550 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:51,551 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-03 23:03:51,551 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:51,551 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-04-03 23:03:51,732 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/config.yaml
+2024-04-03 23:03:51,733 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/wandb-summary.json
+2024-04-03 23:03:52,217 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-03 23:03:52,736 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log
+2024-04-03 23:03:54,690 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 8
+2024-04-03 23:03:54,690 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: poll_exit
+2024-04-03 23:03:54,691 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:54,691 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-03 23:03:54,691 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:54,691 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-04-03 23:03:54,692 INFO    SenderThread:64390 [job_builder.py:build():298] Attempting to build job artifact
+2024-04-03 23:03:54,693 INFO    SenderThread:64390 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-04-03 23:03:54,694 INFO    SenderThread:64390 [job_builder.py:build():404] adding wandb-job metadata file
+2024-04-03 23:03:54,703 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 9
+2024-04-03 23:03:54,703 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:54,703 DEBUG   SenderThread:64390 [sender.py:send():380] send: artifact
+2024-04-03 23:03:54,704 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-03 23:03:54,752 INFO    Thread-12 :64390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log
+2024-04-03 23:03:55,729 INFO    SenderThread:64390 [sender.py:send_artifact():1458] sent artifact job-https___github.com_ketankishore27_udacity_mlops.git_src_basic_cleaning_run.py - {'id': 'QXJ0aWZhY3Q6Nzc3OTkwMjQ5', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NDQ4NDAyOQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzc3OTkwMjQ5', 'versionIndex': 1}}}
+2024-04-03 23:03:55,730 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:55,730 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-04-03 23:03:55,730 INFO    SenderThread:64390 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-03 23:03:55,756 INFO    SenderThread:64390 [dir_watcher.py:finish():388] scan: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files
+2024-04-03 23:03:55,756 INFO    SenderThread:64390 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/requirements.txt requirements.txt
+2024-04-03 23:03:55,757 INFO    SenderThread:64390 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log output.log
+2024-04-03 23:03:55,759 INFO    SenderThread:64390 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/config.yaml config.yaml
+2024-04-03 23:03:55,761 INFO    SenderThread:64390 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/wandb-summary.json wandb-summary.json
+2024-04-03 23:03:55,763 INFO    SenderThread:64390 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/conda-environment.yaml conda-environment.yaml
+2024-04-03 23:03:55,765 INFO    SenderThread:64390 [dir_watcher.py:finish():402] scan save: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/wandb-metadata.json wandb-metadata.json
+2024-04-03 23:03:55,766 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 10
+2024-04-03 23:03:55,768 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:55,768 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-03 23:03:55,768 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:55,768 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-04-03 23:03:55,768 INFO    SenderThread:64390 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-03 23:03:56,447 INFO    wandb-upload_0:64390 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/requirements.txt
+2024-04-03 23:03:56,551 INFO    wandb-upload_2:64390 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/config.yaml
+2024-04-03 23:03:56,569 INFO    wandb-upload_4:64390 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/conda-environment.yaml
+2024-04-03 23:03:56,570 INFO    wandb-upload_1:64390 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/output.log
+2024-04-03 23:03:56,571 INFO    wandb-upload_3:64390 [upload_job.py:push():131] Uploaded file /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/files/wandb-summary.json
+2024-04-03 23:03:56,775 INFO    Thread-11 (_thread_body):64390 [sender.py:transition_state():613] send defer: 11
+2024-04-03 23:03:56,777 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:56,777 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-03 23:03:56,778 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:56,778 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-04-03 23:03:56,778 INFO    SenderThread:64390 [file_pusher.py:join():181] waiting for file pusher
+2024-04-03 23:03:56,778 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 12
+2024-04-03 23:03:56,778 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:56,778 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-03 23:03:56,778 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:56,779 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-04-03 23:03:56,779 INFO    SenderThread:64390 [file_stream.py:finish():595] file stream finish called
+2024-04-03 23:03:57,131 INFO    SenderThread:64390 [file_stream.py:finish():599] file stream finish is done
+2024-04-03 23:03:57,132 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 13
+2024-04-03 23:03:57,132 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:57,132 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-03 23:03:57,133 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:57,133 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-04-03 23:03:57,133 INFO    SenderThread:64390 [sender.py:transition_state():613] send defer: 14
+2024-04-03 23:03:57,133 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 23:03:57,133 INFO    HandlerThread:64390 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-03 23:03:57,133 DEBUG   SenderThread:64390 [sender.py:send():380] send: final
+2024-04-03 23:03:57,133 DEBUG   SenderThread:64390 [sender.py:send():380] send: footer
+2024-04-03 23:03:57,133 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: defer
+2024-04-03 23:03:57,133 INFO    SenderThread:64390 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-04-03 23:03:57,134 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-03 23:03:57,134 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: poll_exit
+2024-04-03 23:03:57,134 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: server_info
+2024-04-03 23:03:57,135 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: server_info
+2024-04-03 23:03:57,136 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-03 23:03:57,136 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-03 23:03:57,136 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-03 23:03:57,137 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: job_info
+2024-04-03 23:03:57,533 DEBUG   SenderThread:64390 [sender.py:send_request():407] send_request: job_info
+2024-04-03 23:03:57,533 INFO    MainThread:64390 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-04-03 23:03:57,533 INFO    MainThread:64390 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-04-03 23:03:57,534 INFO    MainThread:64390 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2024-04-03 23:03:57,535 DEBUG   HandlerThread:64390 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-03 23:03:57,536 INFO    HandlerThread:64390 [handler.py:finish():866] shutting down handler
+2024-04-03 23:03:58,140 INFO    WriterThread:64390 [datastore.py:close():294] close: /Users/A118390615/Desktop/udacity/udacity_mlops/src/basic_cleaning/wandb/run-20240403_230342-1pbxrgft/run-1pbxrgft.wandb
+2024-04-03 23:03:58,538 INFO    SenderThread:64390 [sender.py:finish():1536] shutting down sender
+2024-04-03 23:03:58,539 INFO    SenderThread:64390 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-03 23:03:58,539 INFO    SenderThread:64390 [file_pusher.py:join():181] waiting for file pusher

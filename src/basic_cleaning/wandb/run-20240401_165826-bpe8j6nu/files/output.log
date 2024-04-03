@@ -1,0 +1,6 @@
+
+Namespace(tmp_directory='/var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpx_df8ker', input_artifact='sample1.csv:latest', output_artifact='clean_sample.csv', output_type='clean_sample', output_description='Data with outliers and null values removed', min_price='10', max_price='350')
+2024-04-01 16:58:33,075 Dataset price outliers removal outside range: 10-350
+2024-04-01 16:58:33,080 Dataset last_review data type fix
+2024-04-01 16:58:33,172 Temporary artifact saved to /var/folders/3y/ltn0hpbs5m128yf5kw9h5vgr0000gn/T/tmpx_df8ker/clean_sample.csv
+2024-04-01 16:58:36,065 Cleaned dataset uploaded to wandb
